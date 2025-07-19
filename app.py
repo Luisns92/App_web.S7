@@ -1,6 +1,7 @@
 import pandas as pd
 import plotly.graph_objects as go  # Importación de plotly.graph_objects como go
 import streamlit as st
+import plotly
 
 # Leer los datos del archivo CSV
 car_data = pd.read_csv('vehicles_us.csv')
@@ -26,3 +27,8 @@ if hist_button:
     # Mostrar el gráfico Plotly interactivo en la aplicación Streamlit
     # 'use_container_width=True' ajusta el ancho del gráfico al contenedor
     st.plotly_chart(fig, use_container_width=True)
+
+
+print(pd.__version__)
+print(plotly.__version__)
+print(st.__version__)
