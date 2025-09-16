@@ -1,4 +1,4 @@
-# Proyecto Sprint 7
+# Aplicación Web
 Creación de una aplicación web con el análisis de los datos de un archivo de autos usados.
 
 ## Funcionalidad
